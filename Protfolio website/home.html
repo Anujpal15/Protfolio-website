@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Company Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="left">Company's portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="firstSection">
+      <div class="leftSection">
+        Welcome to a <span class="purple">Portfolio</span> 
+        of leading <span class="purple">tech companies</span> shaping the future.
+        <br>
+        <span id="element"></span>
+      </div>
+      <div class="rightSection">
+        <img src="img.png" alt="">
+      </div>
+    </section>
+    <hr>
+
+    <h1 style="text-align: center; margin-top: 40px;">Company Portfolio</h1>
+    <p style="text-align: center; margin-bottom: 20px;">Showcasing details of leading tech companies.</p>
+
+    <div class="company-section-container">
+      <div class="section">
+        <img src="Google.png" alt="Google">
+        <h2>Google</h2>
+        <p>A leading technology company specializing in internet services, search engines, advertising, and AI technologies.</p>
+      </div>
+
+      <div class="section">
+        <img src="Microsoft.png" alt="Microsoft">
+        <h2>Microsoft</h2>
+        <p>A multinational technology company known for its software products, cloud services, and hardware innovations.</p>
+      </div>
+
+      <div class="section">
+        <img src="Apple.png" alt="Apple">
+        <h2>Apple</h2>
+        <p>Renowned for its consumer electronics, software, and services, including the iPhone, Mac, and iCloud.</p>
+      </div>
+
+      <div class="section">
+        <img src="Amazon.png" alt="Amazon">
+        <h2>Amazon</h2>
+        <p>The world's largest online retailer and a key player in cloud computing services with AWS.</p>
+      </div>
+
+      <div class="section">
+        <img src="Tesla.png" alt="Tesla">
+        <h2>Tesla</h2>
+        <p>An innovative automotive and clean energy company known for its electric vehicles and energy storage solutions.</p>
+      </div>
+
+      <div class="section">
+        <img src="Facebook.png" alt="Facebook">
+        <h2>Facebook</h2>
+        <p>The parent company of Facebook, focused on social media, virtual reality, and the metaverse.</p>
+      </div>
+
+      <div class="section">
+        <img src="IBM.png" alt="IBM">
+        <h2>IBM</h2>
+        <p>A global leader in AI, cloud computing, and enterprise solutions for businesses worldwide.</p>
+      </div>
+
+      <div class="section">
+        <img src="Samsung.png" alt="Samsung">
+        <h2>Samsung</h2>
+        <p>A major manufacturer of electronics, smartphones, and home appliances with a global market presence.</p>
+      </div>
+
+      <div class="section">
+        <img src="Netflix.png" alt="Netflix">
+        <h2>Netflix</h2>
+        <p>The world's leading streaming entertainment service offering TV shows, movies, and original content.</p>
+      </div>
+
+      <div class="section">
+        <img src="Adobe.png" alt="Adobe">
+        <h2>Adobe</h2>
+        <p>A software company famous for its creative and multimedia products like Photoshop and Illustrator.</p>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      var typed = new Typed('#element', {
+        strings: ['Google.', 'Microsoft.', 'Facebook.', 'Adobe.', 'Apple.', 'Amazon.', 'Tesla.', 'Samsung.',
+        'Google.', 'Microsoft.', 'Facebook.', 'Adobe.', 'Apple.', 'Amazon.', 'Tesla.', 'Samsung.',
+        'Google.', 'Microsoft.', 'Facebook.', 'Adobe.', 'Apple.', 'Amazon.', 'Tesla.', 'Samsung.'],
+        typeSpeed: 50,
+      });
+    });
+  </script>
+</body>
+</html>
